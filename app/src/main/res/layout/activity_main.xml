@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_LL"
+        android:layout_width="205dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="72dp"
+        android:onClick="onclick_btn_ll"
+        android:text="Linear Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_tl"
+        android:layout_width="215dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="48dp"
+        android:onClick="onclick_btn_tl"
+        android:text="Table Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_LL" />
+
+    <Button
+        android:id="@+id/btn_fl"
+        android:layout_width="202dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="76dp"
+        android:onClick="onclick_btn_fl"
+        android:text="Frame Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_tl" />
+
+    <Button
+        android:id="@+id/btn_rl"
+        android:layout_width="198dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="60dp"
+        android:onClick="onclick_btn_rl"
+        android:text="Relative Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_fl" />
+
+    <Button
+        android:id="@+id/btn_tabl"
+        android:layout_width="204dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="84dp"
+        android:onClick="onclick_btn_tabl"
+        android:text="Tab Layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rl"
+        app:layout_constraintVertical_bias="0.186" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
